@@ -1,0 +1,1 @@
+Ten projekt zawiera dokument napisany w LaTeX w klasie report, poświęcony opisowi figur geometrycznych. Plik obejmuje podstawowe własności, podział oraz charakterystykę figur płaskich i przestrzennych.

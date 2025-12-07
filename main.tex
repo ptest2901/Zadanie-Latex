@@ -1,0 +1,64 @@
+\documentclass[12pt]{report}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\setlength{\headheight}{15.2466pt}
+\usepackage[utf8]{inputenc}
+\usepackage{polski}
+
+\usepackage[right=3cm,
+            left=3cm,
+            top=2cm,
+            bottom=2cm]{geometry}
+
+
+\title{\Huge{Figury geometryczne}}
+\author{\Large{Piotr Śręba}}
+\date{8 Grudnia 2025}
+
+\fancypagestyle{plain}{%
+  \fancyhf{}
+  \fancyhead[L]{\leftmark}
+  \fancyhead[R]{Piotr Śręba}
+}
+
+\begin{document}
+
+
+\begin{titlepage}
+
+\maketitle
+
+\end{titlepage}
+
+
+\addcontentsline{toc}{chapter}{Streszczenie}
+\begin{abstract}
+Geometria jest jedną z najstarszych dziedzin matematyki. Zajmuje się badaniem kształtów, wymiarów i wzajemnych relacji między punktami, liniami i powierzchniami.\\ Figury geometryczne to podstawowe obiekty, z których zbudowany jest świat przestrzeni. Dzięki nim możemy opisywać zjawiska fizyczne, tworzyć projekty architektoniczne, a nawet analizować dane w naukach przyrodniczych.\\
+\end{abstract}
+
+\tableofcontents
+
+\include{rozdzial1}
+\include{rozdzial2}
+\include{rozdzial3}
+
+
+
+
+\addcontentsline{toc}{chapter}{Bibliografia}
+\markboth{Bibliografia}{Bibliografia}
+\bibliographystyle{plain} 
+\bibliography{bibliografia} 
+
+
+
+
+
+
+\include{wnioski}
+
+
+\end{document}
